@@ -1,0 +1,20 @@
+Package: IowaHUC12
+Title: Contains details about Iowa HUC 12s
+Version: 0.0.1
+Authors@R: 
+    person(given = "Jarad",
+           family = "Niemi",
+           role = c("aut", "cre"),
+           email = "first.last@example.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Hydrologic Unit Codes (HUCs) are watershed boundaries. Iowa has 
+    approximately 4,000 HUC12s. This package provides shapefiles useful for 
+    plotting those HUC12s
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
+Suggests: 
+    testthat,
+    sf
